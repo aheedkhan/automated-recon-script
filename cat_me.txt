@@ -1,0 +1,20 @@
+if you didnt read the instructions on github then this is for you my helpless friend :)
+
+
+this script is designed for kali linux, also run this via following commands:
+chmod +x dependency_install.sh
+sudo ./dependency_install.sh
+
+if you get any error like #include<pcap.h> missing or not found then run:
+# update & install build deps (run as root or with sudo)
+sudo apt update
+sudo apt install -y build-essential pkg-config libpcap-dev
+
+# ensure your Go env is ready for user installs
+# run as your normal user (not root) so go install writes to $GOPATH/bin or $HOME/go/bin
+# replace <your-username> or run in your user shell
+su - "$SUDO_USER" -c 'export GOPATH=$HOME/go; export GOBIN=$HOME/go/bin; mkdir -p $GOPATH $GOBIN; /usr/bin/env go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest'
+
+
+then run:
+sudo python hahahehe.py target.com (only domain, no https or /pages/adshkad you know what i m talking about :) 
