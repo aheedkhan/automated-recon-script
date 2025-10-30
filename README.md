@@ -16,8 +16,8 @@ Recon Automation Script — Passive + Active Enumeration
 ---
 
 ## Files
-- `hahahehe.py` — main recon script (make executable: `chmod +x hahahehe.py`)  
-- `dependency_install.sh` — installer script to set up dependencies on Kali  
+- `hahahehe.py` — main recon script  
+- `dependency_install.sh` — installer script to set up dependencies on Kali  make executable: `chmod +x dependency_install.sh`
 - `recon_output/` — generated output folder (created by the script)
 
 ---
@@ -34,9 +34,7 @@ Recon Automation Script — Passive + Active Enumeration
 
 ---
 
-## Installation (Kali Linux)
-If you **didn't read the instructions on GitHub** then this is for you my helpless friend :)
-
+## Installation 
 This script is designed for Kali Linux. To install dependencies, run:
 
 ```bash
