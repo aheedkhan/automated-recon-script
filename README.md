@@ -5,9 +5,10 @@
 |  Y Y  \/ __ \|   |  \  |/ __ \<  \_____/   Y  \  ___/|   Y  \  ___/   /\    )  ) 
 |__|_|  (____  /___|  /__(____  /\_____\ |___|  /\___  >___|  /\___  >  \/   /  /  
       \/     \/     \/        \/              \/     \/     \/     \/       /__/    
-```
+
 Recon Automation Script — Passive + Active Enumeration
                                         --by aheedkhan
+```
 
 ## Project Overview
 `hahahehe.py` is a Kali-focused automated reconnaissance pipeline that combines passive OSINT (Amass, Subfinder, crt.sh) with active checks (DNS resolution, asynchronous HTTP probing), fast port discovery, service enumeration, URL harvesting and web fuzzing to build a structured reconnaissance report. Results are saved under `recon_output/` and summarized in `report.md`.
